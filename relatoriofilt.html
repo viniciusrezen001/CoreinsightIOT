@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Planilha com Filtro</title>
+  <link rel="stylesheet" href="estilos/estilodadosfilt.css">
+</head>
+
+<body>
+  <div id="div-titulo">
+    <div></div>
+    <h1>Relatórios de Reagistro</h1>
+    <div></div>
+  </div>
+
+  <div id="div-botao">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <button onclick="window.print()">Imprimir</button>
+  </div>
+
+  <div id="div-input">
+    <div></div>
+    <input type="text" id="filtro" placeholder="Digite para filtrar...">
+    <div></div>
+  </div>
+
+  <div id="div-tab">
+    <div></div>
+    <table id="tabela">
+      <thead id="tabela-head"></thead>
+      <tbody id="tabela-body"></tbody>
+    </table>
+    <div></div>
+  </div>
+  <script src="scripts/dados.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+#div-body {
+  background-image: url('ceuimg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+header {
+  padding: 9px;
+  height: 40px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 12px;
+  background-color: #ffffff;
+  
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+#header-divs {
+  padding: 9px;
+}
+
+#div-titulo1 {
+
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+#div-bloc-paragrafo{
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+#div-paragrafos{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+#div-paragrafo {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#div-media {
+  display: flex;
+  flex-direction: column;
+}
+
+#medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#div-titulo2 {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#div-titulo3 {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#div-bloco{
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#div-bloc-tab{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#div-tabela {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+footer{
+  width: 100%;  
+}
+
+#div-footer{
+  width: 100%;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#div-paragrafo-2{
+  padding-left: 27%;
+}
+
+#paragrafo-footer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  justify-content: center;
+}
+
+#div-paragrafo-3{
+  padding-left: 18%;
+}
